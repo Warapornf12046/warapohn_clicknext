@@ -290,7 +290,8 @@ ul.custom-bullets li::before {
     line-height: 14px;
     letter-spacing: 1%;
     color: #1F2883;
-    margin: revert-layer;
+    margin: revert;
+    margin-bottom: 18px;
 }
 
 .sub2 {
@@ -322,7 +323,8 @@ ul.custom-bullets li::before {
     letter-spacing: 1%;
     color: #1F2883;
     margin-bottom: 4px;
-    margin-top: -14px;
+    margin-top: -53px;
+     
 }
 
 
@@ -333,8 +335,9 @@ ul.custom-bullets li::before {
     letter-spacing: -1%;
     color: #359EFF;
     text-align: center;
-    margin-top: 0; 
-    margin-bottom: 0; 
+    margin-top: -41px;
+    margin-bottom: 0;
+    padding-top: 0px;
 }
 
 .sk6-sub1{

@@ -2,44 +2,55 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media only screen and (max-width:820px) {
+ 
+ 
+
+@media only screen and (max-width:320px){
+    .container{
+        width: 200px;
+        margin: 0 auto;
+    }
+
     .zone1 {
         height: auto;
         width: 100%;
+        background-size: cover;
+        background-position: center;
     }
-
-    .body{
-        justify-content: center;
-    }
-}
-
-@media only screen and (max-width:414px){
-    .zone1 {
-        height: auto;
+    .zone1-detail {
         width: 100%;
-    }
-
-    .zone1-detail p {
-        font-size: 50px;
-    }
-}
-
-@media only screen and (max-width:375px){
-    .zone1 {
-        height: auto;
-        width: 100%;
+        left: 0;
+        padding: 10px; /* Adjusted for padding on smaller screens */
     }
     .zone1-detail p {
-        font-size: 100px;
+        font-size: 0.875rem;
     }
-
-    .zone1-logospon img{
-        height: 5rem;
-        width: auto;
-
+    .zone1-detail span {
+        font-size: 0.875rem;
     }
-
+    .zone1-title img {
+        width: 100%;
+        height: auto;
+        top: 10px; /* Adjusted for better positioning on smaller screens */
+        left: 0;
+    }
+    .zone1-date {
+        width: 100%;
+        height: auto;
+        top: 20px; /* Adjusted for better positioning on smaller screens */
+        left: 0;
+        margin-top: 10px; /* Adjusted for better spacing on smaller screens */
+    }
+    .zone1-logospon img {
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 30px; /* Adjusted for better positioning on smaller screens */
+    }
 }
+
+
+
 
 
 
@@ -54,7 +65,7 @@ body {
      
 }
 .container { 
-    width: 100%;
+    /* width: 100%; */
     max-width: 1084px;
     padding: 20px; 
 }
@@ -68,7 +79,7 @@ body {
     width: 71.25rem;
     /* height: 683px; */
     height: 42.688rem;
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 .zone1-detail {

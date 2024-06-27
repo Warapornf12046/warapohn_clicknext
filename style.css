@@ -17,36 +17,7 @@
         background-size: cover;
         background-position: center;
     }
-    .zone1-detail {
-        width: 100%;
-        left: 0;
-        padding: 10px; /* Adjusted for padding on smaller screens */
-    }
-    .zone1-detail p {
-        font-size: 0.875rem;
-    }
-    .zone1-detail span {
-        font-size: 0.875rem;
-    }
-    .zone1-title img {
-        width: 100%;
-        height: auto;
-        top: 10px; /* Adjusted for better positioning on smaller screens */
-        left: 0;
-    }
-    .zone1-date {
-        width: 100%;
-        height: auto;
-        top: 20px; /* Adjusted for better positioning on smaller screens */
-        left: 0;
-        margin-top: 10px; /* Adjusted for better spacing on smaller screens */
-    }
-    .zone1-logospon img {
-        width: 100%;
-        height: auto;
-        left: 0;
-        top: 30px; /* Adjusted for better positioning on smaller screens */
-    }
+     
 }
 
 
